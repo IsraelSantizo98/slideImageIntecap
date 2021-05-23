@@ -26,7 +26,7 @@ function previousImage(){
     contador--;
     if(contador == -1){
         contador = 4;
-        contador=loteFotos[loteFotos.length+1];
+        //contador=loteFotos[loteFotos.length+1];
     }
     for(var i = loteFotos.length -1; i>=0; i--){
         loteFotos[i].style.display='none';
